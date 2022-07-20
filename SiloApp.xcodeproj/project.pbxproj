@@ -92,6 +92,40 @@
 		32554B332886060E0080B124 /* WalletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B322886060E0080B124 /* WalletList.swift */; };
 		32554B352886064C0080B124 /* CommonResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B342886064C0080B124 /* CommonResponseData.swift */; };
 		32554B37288606750080B124 /* ErrorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B36288606750080B124 /* ErrorData.swift */; };
+		32554B48288880D50080B124 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B47288880D50080B124 /* SwiftUIView.swift */; };
+		32554B4B2888812E0080B124 /* CryptoCurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B4A2888812E0080B124 /* CryptoCurrencyDetailsViewModel.swift */; };
+		32554B4E288881770080B124 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B4D288881770080B124 /* HomeViewModel.swift */; };
+		32554B51288882740080B124 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B50288882740080B124 /* ForgotPasswordViewModel.swift */; };
+		32554B53288882BD0080B124 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B52288882BD0080B124 /* LoginViewModel.swift */; };
+		32554B55288882E70080B124 /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B54288882E70080B124 /* OTPVerificationViewModel.swift */; };
+		32554B57288883150080B124 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B56288883150080B124 /* ResetPasswordViewModel.swift */; };
+		32554B7E288887CC0080B124 /* Switch_Staging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32554B5A288887CC0080B124 /* Switch_Staging-Info.plist */; };
+		32554B7F288887CC0080B124 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32554B5B288887CC0080B124 /* GoogleService-Info.plist */; };
+		32554B80288887CC0080B124 /* Switch_QA-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32554B5C288887CC0080B124 /* Switch_QA-Info.plist */; };
+		32554B81288887CC0080B124 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32554B5D288887CC0080B124 /* Info.plist */; };
+		32554B82288887CC0080B124 /* Switch_Dev-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32554B5E288887CC0080B124 /* Switch_Dev-info.plist */; };
+		32554B83288887CC0080B124 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B65288887CC0080B124 /* Poppins-ExtraLight.ttf */; };
+		32554B84288887CC0080B124 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B66288887CC0080B124 /* Poppins-ThinItalic.ttf */; };
+		32554B85288887CC0080B124 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B67288887CC0080B124 /* Poppins-ExtraLightItalic.ttf */; };
+		32554B86288887CC0080B124 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B68288887CC0080B124 /* Poppins-BoldItalic.ttf */; };
+		32554B87288887CC0080B124 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B69288887CC0080B124 /* Poppins-Light.ttf */; };
+		32554B88288887CC0080B124 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B6A288887CC0080B124 /* Poppins-Medium.ttf */; };
+		32554B89288887CC0080B124 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B6B288887CC0080B124 /* Poppins-SemiBoldItalic.ttf */; };
+		32554B8A288887CC0080B124 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B6C288887CC0080B124 /* Poppins-ExtraBoldItalic.ttf */; };
+		32554B8B288887CC0080B124 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B6D288887CC0080B124 /* Poppins-ExtraBold.ttf */; };
+		32554B8C288887CC0080B124 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B6E288887CC0080B124 /* Poppins-BlackItalic.ttf */; };
+		32554B8D288887CC0080B124 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B6F288887CC0080B124 /* Poppins-Regular.ttf */; };
+		32554B8E288887CC0080B124 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B70288887CC0080B124 /* Poppins-LightItalic.ttf */; };
+		32554B8F288887CC0080B124 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B71288887CC0080B124 /* Poppins-Bold.ttf */; };
+		32554B90288887CC0080B124 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B72288887CC0080B124 /* Poppins-Black.ttf */; };
+		32554B91288887CC0080B124 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B73288887CC0080B124 /* Poppins-Thin.ttf */; };
+		32554B92288887CC0080B124 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B74288887CC0080B124 /* Poppins-SemiBold.ttf */; };
+		32554B93288887CC0080B124 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B75288887CC0080B124 /* Poppins-Italic.ttf */; };
+		32554B94288887CC0080B124 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32554B76288887CC0080B124 /* Poppins-MediumItalic.ttf */; };
+		32554B95288887CC0080B124 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32554B78288887CC0080B124 /* Colors.xcassets */; };
+		32554B96288887CC0080B124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32554B79288887CC0080B124 /* Assets.xcassets */; };
+		32554B97288887CC0080B124 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32554B7B288887CC0080B124 /* Localizable.strings */; };
+		32554B98288887CC0080B124 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32554B7D288887CC0080B124 /* AppStrings.swift */; };
 		32F917C12884D6830081A5AA /* SiloAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F917C02884D6830081A5AA /* SiloAppApp.swift */; };
 		32F917C32884D6830081A5AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F917C22884D6830081A5AA /* ContentView.swift */; };
 		32F917C52884D6880081A5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F917C42884D6880081A5AA /* Assets.xcassets */; };
@@ -184,6 +218,44 @@
 		32554B322886060E0080B124 /* WalletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletList.swift; sourceTree = "<group>"; };
 		32554B342886064C0080B124 /* CommonResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonResponseData.swift; sourceTree = "<group>"; };
 		32554B36288606750080B124 /* ErrorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorData.swift; sourceTree = "<group>"; };
+		32554B47288880D50080B124 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		32554B4A2888812E0080B124 /* CryptoCurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
+		32554B4D288881770080B124 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		32554B50288882740080B124 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		32554B52288882BD0080B124 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		32554B54288882E70080B124 /* OTPVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewModel.swift; sourceTree = "<group>"; };
+		32554B56288883150080B124 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		32554B5A288887CC0080B124 /* Switch_Staging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Switch_Staging-Info.plist"; sourceTree = "<group>"; };
+		32554B5B288887CC0080B124 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32554B5C288887CC0080B124 /* Switch_QA-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Switch_QA-Info.plist"; sourceTree = "<group>"; };
+		32554B5D288887CC0080B124 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32554B5E288887CC0080B124 /* Switch_Dev-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Switch_Dev-info.plist"; sourceTree = "<group>"; };
+		32554B60288887CC0080B124 /* Switch_Staging-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Switch_Staging-Bridging-Header.h"; sourceTree = "<group>"; };
+		32554B61288887CC0080B124 /* Switch_QA-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Switch_QA-Bridging-Header.h"; sourceTree = "<group>"; };
+		32554B62288887CC0080B124 /* Switch-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Switch-Bridging-Header.h"; sourceTree = "<group>"; };
+		32554B63288887CC0080B124 /* Switch_Dev-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Switch_Dev-Bridging-Header.h"; sourceTree = "<group>"; };
+		32554B65288887CC0080B124 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		32554B66288887CC0080B124 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		32554B67288887CC0080B124 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		32554B68288887CC0080B124 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		32554B69288887CC0080B124 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		32554B6A288887CC0080B124 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		32554B6B288887CC0080B124 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		32554B6C288887CC0080B124 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		32554B6D288887CC0080B124 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		32554B6E288887CC0080B124 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		32554B6F288887CC0080B124 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		32554B70288887CC0080B124 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		32554B71288887CC0080B124 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		32554B72288887CC0080B124 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		32554B73288887CC0080B124 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		32554B74288887CC0080B124 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		32554B75288887CC0080B124 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		32554B76288887CC0080B124 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		32554B78288887CC0080B124 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		32554B79288887CC0080B124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32554B7C288887CC0080B124 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		32554B7D288887CC0080B124 /* AppStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 		32F917BD2884D6830081A5AA /* SiloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F917C02884D6830081A5AA /* SiloAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiloAppApp.swift; sourceTree = "<group>"; };
 		32F917C22884D6830081A5AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -493,27 +565,143 @@
 			path = "Wallet List";
 			sourceTree = "<group>";
 		};
-		32554B38288606AD0080B124 /* Resources */ = {
+		32554B3E28887F850080B124 /* Silo.xcdatamodeId */ = {
 			isa = PBXGroup;
 			children = (
-				32554B3B288607730080B124 /* Header Files */,
-				32554B39288606C00080B124 /* Assets */,
+				32554B3F28887FBE0080B124 /* Silo.xcdatamodel */,
+			);
+			path = Silo.xcdatamodeId;
+			sourceTree = "<group>";
+		};
+		32554B3F28887FBE0080B124 /* Silo.xcdatamodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Silo.xcdatamodel;
+			sourceTree = "<group>";
+		};
+		32554B45288880980080B124 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				32554B4F288882600080B124 /* Onboarding */,
+				32554B4C288881610080B124 /* Home */,
+				32554B49288880F90080B124 /* CryptoCurrencyDetails */,
+				32554B46288880AD0080B124 /* Add External Wallet */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		32554B46288880AD0080B124 /* Add External Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				32554B47288880D50080B124 /* SwiftUIView.swift */,
+			);
+			path = "Add External Wallet";
+			sourceTree = "<group>";
+		};
+		32554B49288880F90080B124 /* CryptoCurrencyDetails */ = {
+			isa = PBXGroup;
+			children = (
+				32554B4A2888812E0080B124 /* CryptoCurrencyDetailsViewModel.swift */,
+			);
+			path = CryptoCurrencyDetails;
+			sourceTree = "<group>";
+		};
+		32554B4C288881610080B124 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				32554B4D288881770080B124 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		32554B4F288882600080B124 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				32554B50288882740080B124 /* ForgotPasswordViewModel.swift */,
+				32554B52288882BD0080B124 /* LoginViewModel.swift */,
+				32554B54288882E70080B124 /* OTPVerificationViewModel.swift */,
+				32554B56288883150080B124 /* ResetPasswordViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		32554B58288887CC0080B124 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32554B59288887CC0080B124 /* Info-plist */,
+				32554B5F288887CC0080B124 /* Header Files */,
+				32554B64288887CC0080B124 /* Fonts */,
+				32554B77288887CC0080B124 /* Assets */,
+				32554B7A288887CC0080B124 /* Localization */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		32554B39288606C00080B124 /* Assets */ = {
+		32554B59288887CC0080B124 /* Info-plist */ = {
 			isa = PBXGroup;
 			children = (
+				32554B5A288887CC0080B124 /* Switch_Staging-Info.plist */,
+				32554B5B288887CC0080B124 /* GoogleService-Info.plist */,
+				32554B5C288887CC0080B124 /* Switch_QA-Info.plist */,
+				32554B5D288887CC0080B124 /* Info.plist */,
+				32554B5E288887CC0080B124 /* Switch_Dev-info.plist */,
+			);
+			path = "Info-plist";
+			sourceTree = "<group>";
+		};
+		32554B5F288887CC0080B124 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				32554B60288887CC0080B124 /* Switch_Staging-Bridging-Header.h */,
+				32554B61288887CC0080B124 /* Switch_QA-Bridging-Header.h */,
+				32554B62288887CC0080B124 /* Switch-Bridging-Header.h */,
+				32554B63288887CC0080B124 /* Switch_Dev-Bridging-Header.h */,
+			);
+			path = "Header Files";
+			sourceTree = "<group>";
+		};
+		32554B64288887CC0080B124 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				32554B65288887CC0080B124 /* Poppins-ExtraLight.ttf */,
+				32554B66288887CC0080B124 /* Poppins-ThinItalic.ttf */,
+				32554B67288887CC0080B124 /* Poppins-ExtraLightItalic.ttf */,
+				32554B68288887CC0080B124 /* Poppins-BoldItalic.ttf */,
+				32554B69288887CC0080B124 /* Poppins-Light.ttf */,
+				32554B6A288887CC0080B124 /* Poppins-Medium.ttf */,
+				32554B6B288887CC0080B124 /* Poppins-SemiBoldItalic.ttf */,
+				32554B6C288887CC0080B124 /* Poppins-ExtraBoldItalic.ttf */,
+				32554B6D288887CC0080B124 /* Poppins-ExtraBold.ttf */,
+				32554B6E288887CC0080B124 /* Poppins-BlackItalic.ttf */,
+				32554B6F288887CC0080B124 /* Poppins-Regular.ttf */,
+				32554B70288887CC0080B124 /* Poppins-LightItalic.ttf */,
+				32554B71288887CC0080B124 /* Poppins-Bold.ttf */,
+				32554B72288887CC0080B124 /* Poppins-Black.ttf */,
+				32554B73288887CC0080B124 /* Poppins-Thin.ttf */,
+				32554B74288887CC0080B124 /* Poppins-SemiBold.ttf */,
+				32554B75288887CC0080B124 /* Poppins-Italic.ttf */,
+				32554B76288887CC0080B124 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		32554B77288887CC0080B124 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				32554B78288887CC0080B124 /* Colors.xcassets */,
+				32554B79288887CC0080B124 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		32554B3B288607730080B124 /* Header Files */ = {
+		32554B7A288887CC0080B124 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				32554B7B288887CC0080B124 /* Localizable.strings */,
+				32554B7D288887CC0080B124 /* AppStrings.swift */,
 			);
-			path = "Header Files";
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		32F917B42884D6830081A5AA = {
@@ -535,7 +723,9 @@
 		32F917BF2884D6830081A5AA /* SiloApp */ = {
 			isa = PBXGroup;
 			children = (
-				32554B38288606AD0080B124 /* Resources */,
+				32554B58288887CC0080B124 /* Resources */,
+				32554B45288880980080B124 /* View Model */,
+				32554B3E28887F850080B124 /* Silo.xcdatamodeId */,
 				32554AC62885F9A80080B124 /* Model */,
 				32554A722885EB680080B124 /* Helper */,
 				32F917C02884D6830081A5AA /* SiloAppApp.swift */,
@@ -612,9 +802,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32554B82288887CC0080B124 /* Switch_Dev-info.plist in Resources */,
+				32554B88288887CC0080B124 /* Poppins-Medium.ttf in Resources */,
+				32554B87288887CC0080B124 /* Poppins-Light.ttf in Resources */,
 				32F917C82884D6880081A5AA /* Preview Assets.xcassets in Resources */,
 				32554A8D2885EF0D0080B124 /* dialCode in Resources */,
+				32554B89288887CC0080B124 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				32554B86288887CC0080B124 /* Poppins-BoldItalic.ttf in Resources */,
+				32554B83288887CC0080B124 /* Poppins-ExtraLight.ttf in Resources */,
+				32554B90288887CC0080B124 /* Poppins-Black.ttf in Resources */,
+				32554B8A288887CC0080B124 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				32554B7F288887CC0080B124 /* GoogleService-Info.plist in Resources */,
+				32554B7E288887CC0080B124 /* Switch_Staging-Info.plist in Resources */,
+				32554B8E288887CC0080B124 /* Poppins-LightItalic.ttf in Resources */,
+				32554B85288887CC0080B124 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				32554B80288887CC0080B124 /* Switch_QA-Info.plist in Resources */,
+				32554B94288887CC0080B124 /* Poppins-MediumItalic.ttf in Resources */,
+				32554B84288887CC0080B124 /* Poppins-ThinItalic.ttf in Resources */,
+				32554B8B288887CC0080B124 /* Poppins-ExtraBold.ttf in Resources */,
+				32554B96288887CC0080B124 /* Assets.xcassets in Resources */,
+				32554B95288887CC0080B124 /* Colors.xcassets in Resources */,
+				32554B8F288887CC0080B124 /* Poppins-Bold.ttf in Resources */,
+				32554B93288887CC0080B124 /* Poppins-Italic.ttf in Resources */,
+				32554B97288887CC0080B124 /* Localizable.strings in Resources */,
 				32F917C52884D6880081A5AA /* Assets.xcassets in Resources */,
+				32554B91288887CC0080B124 /* Poppins-Thin.ttf in Resources */,
+				32554B8C288887CC0080B124 /* Poppins-BlackItalic.ttf in Resources */,
+				32554B92288887CC0080B124 /* Poppins-SemiBold.ttf in Resources */,
+				32554B8D288887CC0080B124 /* Poppins-Regular.ttf in Resources */,
+				32554B81288887CC0080B124 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +847,7 @@
 				32554ADB2885FB450080B124 /* CurrencyHistory.swift in Sources */,
 				32554B37288606750080B124 /* ErrorData.swift in Sources */,
 				32554A922885EF750080B124 /* DateExtension.swift in Sources */,
+				32554B51288882740080B124 /* ForgotPasswordViewModel.swift in Sources */,
 				32554AEA2885FCB90080B124 /* WalletBalances.swift in Sources */,
 				32554ADF2885FB970080B124 /* HistoryQuotes.swift in Sources */,
 				32554A9C2885F07F0080B124 /* UIApplicationExtension.swift in Sources */,
@@ -651,12 +868,14 @@
 				32554AD92885FB1C0080B124 /* CryptoHistoricalData.swift in Sources */,
 				32554A9E2885F0BB0080B124 /* UIButtonExtension.swift in Sources */,
 				32554AAE2885F2860080B124 /* AWSS3Manager.swift in Sources */,
+				32554B48288880D50080B124 /* SwiftUIView.swift in Sources */,
 				32554B31288605EC0080B124 /* WalletData.swift in Sources */,
 				32554A7F2885ECFD0080B124 /* AppObservers.swift in Sources */,
 				32554AE82885FC8D0080B124 /* UpdateCryptoCurrencyData.swift in Sources */,
 				32554A752885EBB00080B124 /* AppColors.swift in Sources */,
 				32554ABE2885F3EF0080B124 /* NetworkManager.swift in Sources */,
 				32554B04288601A70080B124 /* Payload.swift in Sources */,
+				32554B53288882BD0080B124 /* LoginViewModel.swift in Sources */,
 				32554AB12885F2C80080B124 /* CoinAPI.swift in Sources */,
 				32554B15288603180080B124 /* SearchUserData.swift in Sources */,
 				32554AAA2885F20F0080B124 /* UIViewExtension.swift in Sources */,
@@ -689,9 +908,12 @@
 				32554AD32885FA940080B124 /* CurrencyQuote.swift in Sources */,
 				32554AA62885F1A30080B124 /* UITableView+UITableViewCellExtension.swift in Sources */,
 				32554ABA2885F3A20080B124 /* Connectivity.swift in Sources */,
+				32554B55288882E70080B124 /* OTPVerificationViewModel.swift in Sources */,
 				32554B26288604B30080B124 /* SettingsData.swift in Sources */,
 				32554AFD288601210080B124 /* Mobile.swift in Sources */,
 				32554AE42885FC390080B124 /* Cryptocurrencies.swift in Sources */,
+				32554B4E288881770080B124 /* HomeViewModel.swift in Sources */,
+				32554B98288887CC0080B124 /* AppStrings.swift in Sources */,
 				32554B1A288603A20080B124 /* Requests.swift in Sources */,
 				32554B02288601830080B124 /* NotificationList.swift in Sources */,
 				32554B10288602940080B124 /* UserNameExistData.swift in Sources */,
@@ -701,6 +923,7 @@
 				32554AD12885FA660080B124 /* Currencies.swift in Sources */,
 				32554B1C288603F10080B124 /* RequestData.swift in Sources */,
 				32554ACB2885F9EB0080B124 /* Status.swift in Sources */,
+				32554B4B2888812E0080B124 /* CryptoCurrencyDetailsViewModel.swift in Sources */,
 				32554AB82885F3800080B124 /* APIKeys.swift in Sources */,
 				32554B352886064C0080B124 /* CommonResponseData.swift in Sources */,
 				32554AEF2885FD1F0080B124 /* EditRequest.swift in Sources */,
@@ -708,6 +931,7 @@
 				32554B2C2886058D0080B124 /* UserData.swift in Sources */,
 				32554AD52885FAC00080B124 /* LocalCurrency.swift in Sources */,
 				32554B1F288604260080B124 /* AccountItem.swift in Sources */,
+				32554B57288883150080B124 /* ResetPasswordViewModel.swift in Sources */,
 				32554ACF2885FA370080B124 /* CryptoCurrency.swift in Sources */,
 				32554AC52885F4F50080B124 /* WalletSecurity.swift in Sources */,
 				32554AA42885F15A0080B124 /* UIImageExtension.swift in Sources */,
@@ -715,6 +939,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32554B7B288887CC0080B124 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32554B7C288887CC0080B124 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32F917C92884D6880081A5AA /* Debug */ = {

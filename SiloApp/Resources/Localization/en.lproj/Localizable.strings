@@ -1,0 +1,430 @@
+
+
+"appTitle" = "Silo";
+
+//MARK:- Login
+"login" = "Login";
+"enterLoginDetails" = "Please enter your account information to login";
+"userName" = "User Name";
+"password" = "Password";
+"forgotPasswordWithQuestionMark" = "Forgot Password?";
+"dontHaveAccount" = "Don’t have an account? ";
+"signUp" = "Sign Up";
+"enterUserName" = "Please enter user name!!!";
+"enterPassword" = "Please enter the password!!!";
+"identifyYourself" = "Identify yourself!";
+"authenticationFailed" = "Authentication Failed!!!";
+"notVerifiedTryAgain" = "You could not be verified; please try again.";
+"biometryUnavailable" = "Biometry Unavailable";
+"biometricNotConfigured" = "Your device is not configured for biometric authentication.";
+
+//MARK:- SignUp
+"fillDetailstoCreateAccount" = "Please fill out the details below to create an account";
+"nameAsterisk" = "Name*";
+"fullNameAsterisk" = "Full Name*";
+"userNameAsterisk" = "User Name*";
+"emailAddress" = "Email Address";
+"mobileNumberAsterisk" = "Mobile Number*";
+"passwordAsterisk" = "Password*";
+"acceptPrivacyPolicy" = "I accept the privacy policy and terms of service";
+"alredyHaveAccount" = "Already have an account?";
+"alredyTaken" = "Already Taken";
+"enterName" = "Please enter your name!!!";
+"enterValidName" = "Name must be more than 3 and less than 35 characters, and can not start with space!!!";
+"enterValidFullName" = "Your full name must be more than 3 and less than 35 characters including your last name & does not contains special characters!!!";
+"enterUniqueUserName" = "Please enter a unique user name!!!";
+"enterValidUserName" = "User Name must be more than 2 and less than 25 characters, and can include special characters!!!";
+"enterEmail" = "Please enter your email!!!";
+"enterValidEmail" = "Please enter a valid email!!!";
+"enterMobileNumber" = "Please enter mobile number!!!";
+"enterValidMobileNumber" = "Please enter a valid mobile number!!!";
+"enterValidPassowrd" = "Password must be at least 8 and less than 35 characters, and must include at least one upper case letter, one lower case letter, and one numeric digits, and can include special characters!!!";
+"acceptPrivacyWarning" = "Please accept privacy policy & terms of service!!!";
+
+//MARK:- Forgot Password
+"forgotPassword" = "Forgot Password";
+"enterRegisteredNumber" = "Enter your registered phone number in order to reset your account password";
+"resetPassword" = "Reset Password";
+"mobileNumber" = "Mobile Number";
+
+//MARK:- OTP Verifcation
+"phoneNumberVerification" = "Phone Number Verification";
+"shareOTPRecievedOnMObile" = "Please share the OTP received on your mobile number for verification.";
+"notRecievedYet" = "Not yet received?";
+"resend" = "Resend";
+"confirm" = "Confirm";
+
+//MARK:- Reset Password
+"resetPasswordDescription" = "Please update the password of your account.";
+"confirmPassword" = "Confirm Password";
+
+//MARK:- Complete Profile Step 1
+"completeYourProfile" = "Complete Your Profile";
+"stepOneRecoveryPhrase" = "Step 1 : Recovery Phrase";
+"yourRecoveryPhraseDescription" = "Your recovery phrase is the only way to restore your wallet if your device is ever lost, damaged, or stolen. Write it down or copy these words in the write order and store it in a secure location.";
+"tapToRevealRecoveryPhrase" = "Tap to Reveal Recovery Phrase";
+"copy" = "Copy";
+"neverSharePhrase" = "Never share your phrase with anyone!";
+"iUnderstandLooseMyRecoveryWords" = "I understand that if I loose my recovery words, I will not be able to access my wallet.";
+"continueValue" = "Continue";
+"info" = "Info";
+"recoveryPhraseSensitiveDescription" = "Your recovery phrase is a very sensitive series of words that should only be known or accused by you. This phrase is not stored anywhere on the platform. This code can not be retrieved or changed if lost. These are some ways to keep your recovery phrase safe:\n• Write your code on a piece of paper and store it somewhere safe.\n• Notepad apps for iOS and Android allow notes to be password protected.\n• Any password manager with an encrypted database. Lastpass, 1 Password, and keePassXC are safe choices.";
+"copiedPhrase" = "Phrase copied successfully.\nPlease paste it in a secured location!!!";
+"revealPhraseWarning" = "Please reveal the recovery phrase!!!";
+"acceptCondition" = "Please accept the conditions!!!";
+
+//MARK:- Complete Profile Step 2
+"stepTwoSetUpPin" = "Step 2 : Set Up Pin";
+"yourPinUsedDescription" = "Your PIN will be used to log into the app everytime as well as view sensitive account information.\nMake sure to choose a PIN you can easily remember. Do not share this PIN with anyone!";
+"fourDigit" = "4 Digits";
+"sixDigit" = "6 Digits";
+"createPIN" = "Create PIN";
+"confirmPIN" = "Confirm PIN";
+"pinNotMatch" = "PIN did not match";
+"activateBiometrics" = "Activate device biometrics";
+"resetPin" = "Reset PIN";
+
+//MARK:- Complete Profile Step 3
+"stepThreeSelectCurrency" = "Step 3 : Select Cryptocurrency";
+"selectCurrencyDescription" = "Select which currencies you would like to have displayed on the home screen. You can change these currencies in your settings later.";
+"done" = "Done";
+
+//MARK:- Complete Profile Step 4
+"stepFourKYC" = "Step 4 : KYC";
+"kyc" = "KYC";
+"uploadDocForKYC" = "Please upload your documents relevant with your bank account for KYC.";
+"fileSizeDesc" = "Kindly upload the two sides of your ID and the size should not be more than 7mb.";
+"selectGovernmentId" = "Select Individual Government Id";
+"selectAddressProof" = "Select Individual Address Proof";
+"uploadDocument" = "Upload Document";
+"governmentID" = "Government ID";
+"drivingLicense" = "Driving License";
+"passportCard" = "Passport Card";
+"passport" = "Passport";
+"maxKYCFileSizeWarning" = "The file you have selected is more than 7MB, please try with a lesser size file!!!";
+"dob" = "DOB";
+"country" = "Country";
+"state" = "State";
+"city" = "City";
+"postalCode" = "Postal Code";
+"street1" = "Street 1";
+"street2" = "Street 2";
+
+//MARK:- Tutorial Screen
+"tradeCrypto" = "Trade Crypto";
+"tradeCryptoDescription" = "You can buy, sell, or exchange a large variety of cryptocurrencies easily";
+"trackValueChanges" = "Track value changes";
+"trackValueChangesDescription" = "You can track the value of your cryptosin the market";
+"safelyStoreCrypto" = "Safely Store Crypto";
+"safelyStoreCryptoDescription" = "Switch is a self-custody platform. You can store your crypto safely here";
+"next" = "Next";
+"skip" = "Skip";
+"getStarted" = "Get Started";
+
+//MARK:- Confirm Recovery Phrase
+"word" = "Word";
+"confirmRecoveryPhrase" = "Confirm Recovery Phrase";
+"tapWordInSameOrder" = "Tap the words in the same order as displayed on the previous screen";
+"phraseNotMatched" = "Phrase does not match";
+
+//MARK:- Some Common Strings
+"somethingWentWrong" = "Something went Wrong!!!";
+"chooseOptions" = "Choose Options";
+"camera" = "Camera";
+"gallery" = "Gallery";
+"documents" = "Documents";
+"selectOption" = "Select Option";
+"cameraNotAvailable" = "Camera is not Available!!!";
+"chooseImage" = "Choose Image";
+"chooseFromGallery" = "Choose From Gallery";
+"takePhoto" = "Take Photo";
+"cancel" = "Cancel";
+"alert" = "Alert";
+"settings" = "Settings";
+"restrictedFromUsingCamera" = "Restricted from using Camera!!!";
+"changePrivacySettingAndAllowAccessToCamera" = "Change Privacy Setting and allow access to Camera!!!";
+"restrictedFromUsingLibrary" = "Restricted from using Library!!!";
+"changePrivacySettingAndAllowAccessToLibrary" = "Change Privacy Setting and allow access to Library!!!";
+"confirm" = "Confirm";
+"ok" = "Ok";
+"yes" = "Yes";
+"no" = "No";
+"pleaseCheckInternetConnection" = "Please check Internet connection!!!";
+"requestTimeOut" = "Request time out\nPlease try again!!!";
+"accountBlocked" = "Your account is temporarily blocked by admin please contact support team!!!";
+"sessionExpired" = "Your login session has expired, Please login again to continue!!!";
+
+//MARK:- Reset Pin
+"resetPinRestore" = "Reset PIN and Restore";
+"noWalletWithMnemonic" = "There is no wallet associated with the entered the recovery phrase!!!";
+"resetPinDescription" = "Please enter your 12 word secret phrase to reset your PIN";
+"restorePinDescription" = "Please enter your 12 word secret phrase to recover your wallet";
+
+//MARK:- Passcode View
+"logout" = "Logout";
+"areYouSureLogout" = "Are you sure you want to log out?";
+"invalidPin" = "Invalid PIN";
+
+//MARK:- Home
+"send" = "Send";
+"receive" = "Receive";
+"request" = "Request";
+"assets" = "Assets";
+"showHideAssets" = "Show/Hide Assets";
+
+//MARK:- Update Currencies
+"selectCurrency" = "Select Currency";
+"addCurrency" = "Add Currency";
+"searchCurrencies" = "Search currencies";
+"selectLocalCurrency" = "Search local currency";
+"selectYourLocalCurrency" = "Please select your local currency";
+"noCurrenciesFound" = "No currencies found!!!";
+
+//MARK:- Currency Details
+"buy" = "Buy";
+"walletTransaction" = "Wallet Transactions";
+"walletBalance" = "Wallet Balance";
+"coins" = "Coins";
+"In" = "In";
+
+//MARK:- Profile
+"menu" = "Menu";
+"searchUsers" = "Search Users";
+"notifications" = "Notifications";
+"transactionsHistory" = "Transactions History";
+"paymentMethods" = "Payment Methods";
+"requests" = "Requests";
+"friends" = "Friends";
+"profile" = "Profile";
+"security" = "Security";
+"contactUs" = "Contact Us";
+"privacyPolicy" = "Privacy Policy";
+"termsConditions" = "Terms & Conditions";
+"kycPending" = "KYC Pending";
+"kycInProgress" = "KYC In-Progress";
+"kycCompleted" = "KYC Completed";
+
+//MARK:- Select Transaction
+"selectTransactionType" = "Select Transaction Type";
+"sell" = "Sell";
+"exchange" = "Exchange";
+"buyCryptoWithCash" = "Buy crypto with cash";
+"sellCryptoWithCash" = "Sell crypto with cash";
+"changeOneCryptoToOther" = "Change one crypto to other";
+
+//MARK:- Receive
+"requestResc" = "You can also request from the application itself";
+"scanAboveQR" = "Please scan the above QR";
+"downloadQR" = "Download QR";
+"share" = "Share";
+"copied" = "Copied Successfully";
+"imageSaved" = "Image has been saved to your Photos!!!";
+
+//MARK:- Contact Us
+"message" = "Message";
+"enterMessageHere" = "Please enter your message here";
+"submit" = "Submit";
+"contactUsSuccess" = "Thank you for contacting us. We will soon reach out to you via email.";
+
+//MARK:- Settings
+"notificationDesc" = "Receive a push notification when you receive funds";
+"restore" = "Restore";
+"restoreDesc" = "Restore a wallet with your 12 word secret phrase";
+
+//MARK:- Securuty Settings
+"securitySettings" = "Security Settings";
+"viewBackupPhrase" = "View Backup Phrase";
+"viewBackupPhraseDesc" = "Backing up your wallet with a recovery  phase is the only way to recover your wallet if you somehow lose access.";
+"enablePasscode" = "Enable Passcode";
+"enablePasscodeDesc" = "Require a four digit passcode to unlock your wallet upon opening the app";
+"enableFaceId" = "Enable Biometrics";
+"enableFaceIdDesc" = "Require Biometrics authentication in order to unlock your wallet upon opeing the app";
+"changePin" = "Change PIN";
+"changePinDesc" = "You can change your PIN with the help of existing PIN";
+"changePassword" = "Change Password";
+"changePasswordDesc" = "You can change your Password with the help of existing Password";
+
+//MARK:- Change PIN
+"currentPinDesc" = "Enter your current transaction PIN to change your PIN";
+"newPinDesc" = "Enter your new transaction PIN to change your PIN";
+"confirmPinDesc" = "Please confirm your new transaction PIN to change your PIN";
+"enterPin" = "Enter PIN";
+"pinUpdated" = "Your PIN has been successfully changed.";
+"success" = "Success";
+"failed" = "Failed";
+"setNewPin" = "Now you can set a new PIN!!!";
+
+//MARK:- Edit Profile
+"firstNameAsterisk" = "First Name*";
+"lastNameAsterisk" = "Last Name*";
+"enterFirstName" = "Please enter first name!!!";
+"enterLastName" = "Please enter last name!!!";
+"save" = "Save";
+"profileUpdated" = "Profile updated successfully!!!";
+"editProfileWarning" = "The profile is not saved yet.\nDo you want to discard the changes?";
+
+//MARK:- Decrypt Phrase
+"decryptPhrase" = "Decrypt Passphrase";
+"enterPinToDecryptPhrase" = "Enter PIN to Decrypt Recovery Phrase";
+"recoveryPhrase" = "Recovery Phrase";
+
+//MARK:- Assets
+"searchCurrencyWallets" = "Search currency wallets";
+"currenciesUpdated" = "Currencies updated successfully!!!";
+
+//MARK:- Change Password
+"changePasswordPageDesc" = "Please enter your current password to change your password";
+"oldPassword" = "Old Password";
+"newPassword" = "New Password";
+"passwordChangeSuccess" = "Your password has been successfully changed";
+
+//MARK:- Friends & Search
+"onThePlatform" = "On the Platform";
+"externalWallet" = "External Wallets";
+"search" = "Search";
+"noResultFound" = "No results found!!!";
+
+//MARK:- Scanner
+"scanningNotSupported" = "Scanning not supported";
+"deviceNotSupprtsScanning" = "Your device does not support scanning a code from an item. Please use a device with a camera.";
+"result" = "Result";
+"scanning" = "Scanning";
+"scanCompleted" = "Scan Completed";
+"requestedUserBlocked" = "The user you are requesting is currently blocked by Admin!!!";
+
+//MARK:- Add External Wallet
+"addExternalWallet" = "Add External Wallet";
+"walletName" = "Wallet Name";
+"pasteAddress" = "Paste Address";
+"enterWalletName" = "Please enter wallet name!!!";
+"enterWalletAddress" = "Please enter wallet address!!!";
+
+//MARK:- Confirmed Failed Details
+"recoveryFailed" = "Recovery Failed";
+"recoveryFailedDesc" = "The recovery phrase you entered did not match any wallet. Please try again with the correct phrase.";
+"backToHome" = "Back to Home";
+"recoverySuccessDesc" = "You have successfully restored your wallet with the new entered pin.";
+
+//MARK:- Sell Buy Send & Request
+"enterCoinToBeSold" = "Enter the value of coins to be sold";
+"enterAmount" = "Enter Amount";
+"equivalentAmount" = "Equivalent Amount";
+"bankAccount" = "Bank Account";
+"select" = "Select";
+"enterCoinToBePurchased" = "Enter the value of coins to be purchased";
+"modeOfPayment" = "Mode of Payment";
+"advancedOption" = "Advanced Options";
+"addPersonalMessage" = "Add a personal message";
+"selectUser" = "Select User";
+"add" = "Add";
+"noUserSelected" = "No user selected";
+"noRecipientSelected" = "No Recipient selected";
+"paste" = "Paste";
+
+//MARK:- Bank Card Selection
+"selectBankAccount" = "Select Bank Account";
+"addBankAccount" = "Add New Bank Account";
+"makePayment" = "Make Payment";
+"addCard" = "Add New Card";
+
+//MARK:- Add Recipient
+"addRecipient" = "Add Recipient";
+"contacts" = "Contacts";
+"showingResultFor" = "Showing results for";
+
+//MARK:- Review Details
+"review" = "Review";
+"totalCoins" = "Total Coin(s)";
+"totalCoinAmount" = "Total Coin Amount";
+"requestSent" = "Request Sent";
+"transferRequest" = "Transfer Request";
+"youSend" = "You Send";
+"youReceive" = "You Receive";
+"half" = "Half";
+"max" = "Max";
+"minerFee" = "Miner Fee";
+"networkFee" = "Network Fee";
+"exchangeFee" = "Exchange Fee";
+"estimatedTime" = "Estimated Time of Completion";
+"purchase" = "Purchase";
+"swipeUpToSell" = "Swipe up to Sell";
+"swipeUpToBuy" = "Swipe up to Buy";
+"swipeUpToSend" = "Swipe up to Send";
+"swipeUpToRequest" = "Swipe up to Send Request";
+"swipeUpToExchange" = "Swipe up to Exchange";
+"transactionID" = "Transaction ID";
+
+//MARK:- Requests
+"pending" = "Pending";
+"completed" = "Completed";
+"less" = "Less";
+"more" = "More";
+
+//MARK:- Add Bank & Card
+"enterBankFirstName" = "Enter First Name";
+"enterBankLastName" = "Enter Last Name";
+"enterAccountNumber" = "Enter Account Number";
+"enterRoutingNumber" = "Enter Routing Number";
+"selectAccountType" = "Select Account Type";
+"selectBeneficiaryType" = "Select Beneficiary Type";
+"selectCountry" = "Select Country";
+"saveBankDetails" = "Save bank details for future transactions";
+"enterCardNumber" = "Enter your card number";
+"expiryMonth" = "Expiry Month";
+"securityCode" = "Security Code";
+"billingAddressLineOne" = "Enter your Billing Address (Line 1)";
+"billingAddressLineTwo" = "Enter your Billing Address (Line 2)";
+"saveCardDetails" = "Save card details for future transactions";
+"cantRequestYourSelf" = "You can't request your self!!!";
+"invalidQRCode" = "Invalid QR Code!!!";
+"checking" = "CHECKING";
+"savings" = "SAVINGS";
+"individual" = "INDIVIDUAL";
+"corporate" = "CORPORATE";
+
+//MARK:- Payment Methods
+"delete" = "Delete";
+"creditDebitCard" = "Credit/Debit Card";
+"addPaymentMethod" = "Add New Payment Method";
+"selectPaymentMethod" = "Select Payment Mode";
+"yourKYCPending" = "Your KYC status is Pending";
+"yourKYCInProgress" = "Your KYC status is in progress";
+"yourKYCCompleted" = "Your KYC status is completed";
+"documentUploaded" = "Document uploaded";
+"uploadDocumenet" = "Upload documenet";
+"inProgress" = "In-Progress";
+"active" = "Active";
+"accountAddedSuccessfully" = "Your bank account is added successfully and currently, it is inactive.\nTo activate it you need to upload a bank statement.";
+"documentUploadedSuccessfully" = "Document uploaded successfully!!!";
+
+//MARK:- Filters
+"filters" = "Filters";
+"close" = "Close";
+"apply" = "Apply";
+"reset" = "Reset";
+"transactionType" = "Transaction Type";
+"currencyType" = "Currency Type";
+"transactionDate" = "Transaction Date";
+"all" = "All";
+
+//MARK:- Notification List
+"complete" = "Complete";
+"decline" = "Decline";
+"declined" = "Declined";
+"requested" = "Requested";
+"joined" = "Joined";
+"received" = "Received";
+"sent" = "Sent";
+"exchanged" = "Exchanged";
+"addedToWallet" = "Added to Wallet";
+"transfered" = "Transfered";
+"admin" = "Admin";
+"none" = "none";
+"na" = "N/A";
+"sureClearNotification" = "Are you sure you want to clear all the Notifications?";
+"clearAll" = "Clear All";
+
+//MARK:- Card OTP And 2FA
+"verifyCard" = "Verify Card";
+"enterSMSOTP" = "Enter the code recieved on phone number linked with card.";
+"enter2FAOTP" = "Enter the code received through two factor authentication.";

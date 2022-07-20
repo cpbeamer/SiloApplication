@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "profilelogout.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
